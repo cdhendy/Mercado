@@ -41,29 +41,19 @@ pip install hvplot
 pip install holoviews
 ```
 
-Additionally hvplot was used to create a interactive visualization for the project. In some cases the ```groupby``` function was used to select certain years of larger data sets. 
+Additionally hvplot was used to create a interactive visualization for the project. In one case the ```groupby``` function was used to create a widget so one can select certain years of larger data sets. 
 
 This notebook was created using python 3.7.10. There were a number of issues with the packages within this specific conda environment, and I definitely recommend taking time to troubleshoot any package discrepencies that may arise. 
 
 ---
-## Demonstration
+## Usage
 
-Using terminal or Gitbash, CD to the correct folder that contains the notebook file, then type the following:
-
-```python
-voila passive_investing.ipynb
-```
-
-![Gitbash](Resources/gitbash.gif)
-
-The results should then display in your browser as follows:
-
-![Voila](Resources/voila.gif)
+First, head on over to [Colaboratory](https://colab.research.google.com/). You can then upload this notebook into the online IDE. Under the Runtime tab you can select "Run All" - this will then prompt you to open the various CSV files found in the "Resources" folder found within this repo. 
 
 ---
 ## Conclusion
 
-Contained within the notebook are the results of the analysis. 
+Contained within the notebook are the results of the analysis. If I were to improve on this project, I would try to further implement some type of Fire CLI that would open VSCode directly in to the Colab runtime. 
 
 ---
 
